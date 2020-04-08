@@ -175,10 +175,7 @@ projects:
     assignments:
       - title: Epicor MRP/ERP Migration
         link: #"#hook"
-        tagline: "Feb 2013 – Apr 2014
-
-Project description
-This was a quick ERP migration for our organization with the purpose of consolidating the CIMTEK organization with our parent company and improve efficiency as a whole within the organization. During this transition, I had to step outside of my comfort zone and had to learn a lot about finance. Our goal was to roll out the workflow provided by our parent company and adapt our processes to match. My main focus at first was the extraction of data from our older system and translate for import into the new system. In order to make the translation successful, I had to learn about not only how the financial information flowed through the system but also the operational side of the organization. Once a new workflow had been developed I was tasked with entering sample data through the environment and generate an analysis of the financial impact and operations load impact. I was later asked to generate the export scripts for active projects and provide that data to another team for data entry into the new system. "
+        tagline: "Feb 2013 – Apr 2014 <br/>This was a quick ERP migration for our organization with the purpose of consolidating the CIMTEK organization with our parent company and improve efficiency as a whole within the organization. During this transition, I had to step outside of my comfort zone and had to learn a lot about finance. Our goal was to roll out the workflow provided by our parent company and adapt our processes to match. My main focus at first was the extraction of data from our older system and translate for import into the new system. In order to make the translation successful, I had to learn about not only how the financial information flowed through the system but also the operational side of the organization. Once a new workflow had been developed I was tasked with entering sample data through the environment and generate an analysis of the financial impact and operations load impact. I was later asked to generate the export scripts for active projects and provide that data to another team for data entry into the new system. "
 
 # publications:
     # title: Publications
