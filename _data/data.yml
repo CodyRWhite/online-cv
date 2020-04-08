@@ -158,16 +158,16 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-# courses:
-    # title: Projects
-    # intro: >
+ courses:
+     title: Acomplishments
+     intro: >
       # You can list your side projects or open source libraries in this
       # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    # assignments:
-      # - title: Velocity
-        # link: "#hook"
-        # tagline: "A responsive website template designed to help startups promote, market and sell their products."
+     assignments:
+       - title: IFS Foundation 1 Administration
+         link: 
+         tagline: "This course lets you develop the skills required to create and maintain the application database for a Foundation1-based business application. It provides functions to administer Oracle and Foundation1 settings, and to upgrade individual business components."
 # projects:
     # title: Projects
     # intro: >
