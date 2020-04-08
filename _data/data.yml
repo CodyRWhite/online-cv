@@ -158,16 +158,10 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-courses:
-    title: Acomplishments
-    intro: >
-     # You can list your side projects or open source libraries in this
-     # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-     # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: IFS Foundation 1 Administration
-        link: 
-        tagline: "This course lets you develop the skills required to create and maintain the application database for a Foundation1-based business application. It provides functions to administer Oracle and Foundation1 settings, and to upgrade individual business components."
+accomplishments:
+    - course: Service Support Technician
+      time: 2008 - 2010
+      breif: CIMTEK Ltd. - Acquired by Circuit Check // Burlington, Ontario
 # projects:
     # title: Projects
     # intro: >
