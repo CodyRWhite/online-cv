@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Cody White
@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: codywhite_cv@icloud.com
-    phone: 
+    phone: 324651434
     website: codywhite.me #do not add http://
     linkedin: codyrwhite
     github: codyrwhite
@@ -75,6 +75,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point    
+
     - role: Systems Analyst and Network Support
       time: 2012 - 2015
       company: Circuit Check Inc. Burlington, Ontario
@@ -82,6 +83,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point    
+
     - role: Network Administration
       time: 2007 - 2012
       company: CIMTEK Ltd.- Acquired by Circuit Check Burlington, Ontario
@@ -89,6 +91,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point   
+
    - role: Engineering Services
       time: 2010 - 2012
       company: CIMTEK Ltd.- Acquired by Circuit Check Burlington, Ontario
@@ -96,6 +99,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point    
+
     - role: Service Support Technician
       time: 2008 - 2010
       company: CIMTEK Ltd.- Acquired by Circuit Check Burlington, Ontario
@@ -103,6 +107,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point    
+
     - role: Production Technician
       time: 2007 - 2008
       company: CIMTEK Ltd.- Acquired by Circuit Check Burlington, Ontario
@@ -110,7 +115,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-       
+
 #projects:
 #    title: Projects
 #    intro: >
