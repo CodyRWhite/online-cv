@@ -68,41 +68,46 @@ education:
           - Microsoft Certified Professional (MCP),
           - Microsoft Certified Database Administrator (MCDBA)Bullet point
 experiences:
-    - role: Lead Developer
+    - role: Data Analyst and Security Specialist
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Circuit Check Inc. Burlington, Ontario
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Bullet point    
+    - role: Systems Analyst and Network Support
+      time: 2012 - 2015
+      company: Circuit Check Inc. Burlington, Ontario
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        architecto beatae vitae dicta sunt explicabo.
           - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Bullet point    
+    - role: Network Administration
+      time: 2007 - 2012
+      company: CIMTEK Ltd. - Acquired by Circuit Check Burlington, Ontario
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point   
+   - role: Engineering Services
+      time: 2010 - 2012
+      company: CIMTEK Ltd. - Acquired by Circuit Check Burlington, Ontario
+      details: |
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point    
+    - role: Service Support Technician
+      time: 2008 - 2010
+      company: CIMTEK Ltd. - Acquired by Circuit Check Burlington, Ontario
+      details: |
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point    
+    - role: Production Technician
+      time: 2007 - 2008
+      company: CIMTEK Ltd. - Acquired by Circuit Check Burlington, Ontario
+      details: |
+        architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
 projects:
