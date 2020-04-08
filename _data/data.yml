@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: codywhite_cv@icloud.com
-    phone: 324651434
+    phone: #324651434
     website: codywhite.me #do not add http://
     linkedin: codyrwhite
     github: codyrwhite
@@ -188,7 +188,7 @@ experiences:
       # - name: Python & Django
         # level: 98%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
 
