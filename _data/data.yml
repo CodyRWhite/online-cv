@@ -83,7 +83,6 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-<<<<<<< HEAD
 #projects:
 #    title: Projects
 #    intro: >
@@ -91,8 +90,6 @@ experiences:
 #      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 #    assignments:
-#      - title: Velocity
-#        link: "#hook"
 #        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 
@@ -100,7 +97,6 @@ experiences:
 #    title: Publications
 #    intro: |
 #      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #      bibendum fringilla a eu lectus.
 #    papers:
 #      - title: The Art of Computer Programming
@@ -178,14 +174,17 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
->>>>>>> parent of f0c800b... Update data.yml
 
-#skills:
-#    title: Skills &amp; Proficiency
+skills:
+    title: Skills &amp; Proficiency
 
-#    toolset:
-#      - name: Python & Django
-#        level: 98%
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
