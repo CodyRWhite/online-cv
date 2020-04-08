@@ -162,7 +162,7 @@ accomplishments:
     - course: Crystal Reports: Report Design I
       time: 2008 - 2010
       breif: BOC310
-      details: |
+      #details: |
     #- course: IFS Foundation 1 Administration
     #  time: 2008 - 2010
 # projects:
