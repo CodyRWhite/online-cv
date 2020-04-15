@@ -5,19 +5,23 @@ title: Cody White's Resume
 url: 'https://codyrwhite.github.io/'
 baseurl: '/online-cv' #change it according to your repository name
 description: A little bit about me and what I have done. 
-favicon: favicon.ico
+favicon: #favicon.ico
+fluid_icon: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 ## Thumbnail Information
-itemprop_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
-og_site_name: Cody White's Resume
-og_title: Cody White's Resume
-og_description: A little bit about me and what I have done. 
-og_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
-og_url: 'https://codyrwhite.github.io/'
+thumbnail_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
+
+twitter_thumbnail: true
+twitter_card: Summary
+twitter_id: '@CodyWhite_'
+
+og_thumbnail: true
 og_type: Blog
+
+itemprop_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
 
 # Tracker
 analytics: UA-12472657-5
