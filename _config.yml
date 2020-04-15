@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Cody White's Resume
-url: 'https://codyrwhite.github.io/'
+url: 'https://codyrwhite.github.io'
 baseurl: '/online-cv' #change it according to your repository name
 description: A little bit about me and what I have done. 
 favicon: #favicon.ico
@@ -12,16 +12,13 @@ theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 ## Thumbnail Information
+google_meta: true
+twitter_meta: true
+facebook_meta: true
 thumbnail_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
-
-twitter_thumbnail: true
 twitter_card: Summary
 twitter_id: '@CodyWhite_'
-
-og_thumbnail: true
 og_type: Blog
-
-itemprop_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
 
 # Tracker
 analytics: UA-12472657-5
