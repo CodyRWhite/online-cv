@@ -18,27 +18,32 @@
   <!-- Fluid Icon -->
   <link rel="fluid-icon" href="{{ site.fluid_icon }}" title="{{ site.title }}"> 
   {% endif%}  
-  {% if site.fb_app_id %}
-  <!-- Facebook App ID -->
-  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
-  {% endif%}  
-  {% if site.twitter_thumbnail %}
-  <!-- Twitter Thumbnail -->
-  <meta name="twitter:image:src" content="{{ site.thumbnail_image }}" />
-  <meta name="twitter:site" content="{{ site.twitter_id }}" />
+  {% if site.google_meta %}
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="{{ site.title }}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.thumbnail_image }}">
+  {% endif%}
+  {% if site.twitter_meta %}
+  <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="{{ site.twitter_card }}" />
   <meta name="twitter:title" content="{{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="{{ site.thumbnail_image }}" />
+  <meta name="twitter:site" content="{{ site.twitter_id }}" />
   {% endif%}  
-  {% if site.og_thumbnail %}
-  <!-- OG Thumbnail -->
-  <meta property="og:image" content="{{ site.thumbnail_image }}" />
-  <meta property="og:site_name" content="{{ site.title }}" />
+  {% if site.facebook_meta %}
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
   <meta property="og:type" content="{{ site.og_type }}" />
   <meta property="og:title" content="{{ site.title }}" />
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
   <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="{{ site.thumbnail_image }}" />
   {% endif%}  
+  {% if site.fb_app_id %}
+  <!-- Facebook App ID -->
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+  {% endif%}
 
   <!-- Global CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css">
