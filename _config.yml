@@ -30,7 +30,7 @@ compress_html: # - http://jch.penibelst.de/
   endings: all
   ignore:
     envs: development
-  blanklines: false
+  blanklines: true
   profile: true
   startings: [html, head, body]
 
