@@ -1,44 +1,45 @@
 <head>
   <title>{{ site.title }}</title>
-
+  
   <!-- Meta -->
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   {% if site.chrome_mobile_color %}
   <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
   {% endif%}
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description |default: "A beautiful
-  Jekyll theme for creating resume" }}">
-
   
   {% if site.favicon %}
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ site.favicon }}">
+  <link rel="shortcut icon" href="favicon.ico">  
   {% endif%}
-  
-  {% if site.itemprop_image %}
-  <meta content="{{ site.itemprop_image }}" itemprop="image">
-  {% endif%}
-  {% if site.og_site_name %}
-  <meta property="og:site_name" content="{{ site.og_site_name }}"/>
-  {% endif%}
-  {% if site.og_title %}
-  <meta property="og:title" content="{{ site.og_title }}"/>
-  {% endif%}
-  {% if site.og_description %}
-  <meta property="og:description" content="{{ site.og_description }}"/>
-  {% endif%}
-  {% if site.og_image %}
-  <meta property="og:image" content="{{ site.og_image }}">
-  {% endif%}
-  {% if site.og_url %}
-  <meta property="og:url" content="{{ site.og_url }}">
-  {% endif%}
-  {% if site.og_type %}
-  <meta property="og:type" content="{{ site.og_type }}"/>
-  {% endif%}
-  
+  {% if site.fluid_icon %}
+  <!-- Fluid Icon -->
+  <link rel="fluid-icon" href="{{ site.fluid_icon }}" title="{{ site.title }}"> 
+  {% endif%}  
+  {% if site.fb_app_id %}
+  <!-- Facebook App ID -->
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+  {% endif%}  
+  {% if site.twitter_thumbnail %}
+  <!-- Twitter Thumbnail -->
+  <meta name="twitter:image:src" content="{{ site.thumbnail_image }}" />
+  <meta name="twitter:site" content="{{ site.twitter_id }}" />
+  <meta name="twitter:card" content="{{ site.twitter_card }}" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  {% endif%}  
+  {% if site.og_thumbnail %}
+  <!-- OG Thumbnail -->
+  <meta property="og:image" content="{{ site.thumbnail_image }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="{{ site.og_type }}" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  {% endif%}  
+
   <!-- Global CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css">
 
