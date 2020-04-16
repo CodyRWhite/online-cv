@@ -16,7 +16,11 @@
     {% endif %}
     
     {% if sidebar.location %}
-    <i class="fas fa-map-marker-alt"></i>{{ sidebar.location }}
+    <ul class="list-unstyled contact-list">    
+      <li class="email"><i class="fas fa-map-marker-alt"></i>
+        {{ sidebar.location }}
+      </li>
+    </ul>    
     {% endif %}
 
 
