@@ -16,11 +16,13 @@
     {% endif %}
     
     {% if sidebar.location %}
-    <ul class="list-unstyled contact-list">    
-      <li class="email"><i class="fas fa-map-marker-alt"></i>
-        {{ sidebar.location }}
-      </li>
-    </ul>    
+    <div class="contact-container container-block">
+      <ul class="list-unstyled contact-list">    
+        <li class="email"><i class="fas fa-map-marker-alt"></i>
+          {{ sidebar.location }}
+        </li>
+      </ul>    
+    </div>
     {% endif %}
 
 
