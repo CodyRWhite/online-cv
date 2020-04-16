@@ -12,10 +12,10 @@
   <meta name="description" content="{{ site.description }}">
   <!-- Icons -->
   {% if site.favicon %}
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">  
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ base }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ base }}/favicon-16x16.png">
+  <link rel="manifest" href="{{ base }}/site.webmanifest">  
   {% endif%}
   {% if site.fluid_icon %}
   <link rel="fluid-icon" href="{{ site.fluid_icon }}" title="{{ site.title }}"> 
@@ -24,7 +24,7 @@
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{{ site.title }}">
   <meta itemprop="description" content="{{ site.description }}">
-  <meta itemprop="image" content="{{ site.thumbnail_image }}">
+  <meta itemprop="image" content="{{ base }}{{ site.thumbnail_image }}">
   <meta name="google-site-verification" content="{{ site_verification }}" />
   {% endif%}
   {% if site.twitter_meta %}
@@ -33,7 +33,7 @@
   <meta name="twitter:url" content="{{ site.url }}" />
   <meta name="twitter:title" content="{{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
-  <meta name="twitter:image" content="{{ site.thumbnail_image }}" />
+  <meta name="twitter:image" content="{{ base }}{{ site.thumbnail_image }}" />
   {% endif%}  
   {% if site.facebook_meta %}
   <!-- Open Graph / Facebook -->
