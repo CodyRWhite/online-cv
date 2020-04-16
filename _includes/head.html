@@ -1,21 +1,20 @@
-<head>
-  <title>{{ site.title }}</title>
-  
+<head>  
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   {% if site.chrome_mobile_color %}
   <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
-  {% endif%}
-  
+  {% endif%} 
+  <!-- Primary Meta Tags -->
+  <title>{{ site.title }}</title>
+  <meta name="title" content="{{ site.title }}">
+  <meta name="description" content="{{ site.description }}">
+  <!-- Icons -->
   {% if site.favicon %}
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ site.favicon }}">  
+  <link rel="icon" type="image/png" href="{{ site.favicon }}" />
   {% endif%}
   {% if site.fluid_icon %}
-  <!-- Fluid Icon -->
   <link rel="fluid-icon" href="{{ site.fluid_icon }}" title="{{ site.title }}"> 
   {% endif%}  
   {% if site.google_meta %}
@@ -23,19 +22,20 @@
   <meta itemprop="name" content="{{ site.title }}">
   <meta itemprop="description" content="{{ site.description }}">
   <meta itemprop="image" content="{{ site.thumbnail_image }}">
+  <meta name="google-site-verification" content="{{ site_verification }}" />
   {% endif%}
   {% if site.twitter_meta %}
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="{{ site.twitter_card }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}" />
   <meta name="twitter:title" content="{{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
   <meta name="twitter:image" content="{{ site.thumbnail_image }}" />
-  <meta name="twitter:site" content="{{ site.twitter_id }}" />
   {% endif%}  
   {% if site.facebook_meta %}
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="{{ site.og_type }}" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:image" content="{{ site.thumbnail_image }}" />
