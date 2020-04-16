@@ -14,6 +14,11 @@
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
+    
+    {% if sidebar.location %}
+    <i class="fas fa-map-marker-alt"></i>{{ sidebar.location }}
+    {% endif %}
+
 
   </div><!--//profile-container-->
 
