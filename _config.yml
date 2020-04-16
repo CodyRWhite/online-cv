@@ -15,7 +15,7 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 google_meta: true
 twitter_meta: true
 facebook_meta: true
-thumbnail_image: 'https://avatars3.githubusercontent.com/u/56890437?s=96&v=4'
+thumbnail_image: '/assets/images/meta_banner.png'
 twitter_card: Summary
 twitter_id: '@CodyWhite_'
 og_type: Blog
