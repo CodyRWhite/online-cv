@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Cody White's Resume
-url: 'https://codyrwhite.github.io/online-cv'
+url: 'https://codyrwhite.github.io'
 baseurl: '/online-cv' #change it according to your repository name
 description: A little bit about me and what I have done. 
 favicon: true ##Generate and upload files to root - https://favicon.io/favicon-converter/
