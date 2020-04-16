@@ -10,22 +10,18 @@
     {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
-
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
     
-    {% if sidebar.location %}
-    <div class="contact-container container-block">
-      <ul class="list-unstyled contact-list">    
-        <li class="email"><i class="fas fa-map-marker-alt"></i>
-          {{ sidebar.location }}
-        </li>
-      </ul>    
-    </div>
-    {% endif %}
-
-
+    <ul class="list-unstyled contact-list">
+      {% if sidebar.tagline %}
+      <h3 class="tagline">{{ sidebar.tagline }}</h3>
+      {% endif %}
+    
+      {% if sidebar.location %}   
+      <li class="email"><i class="fas fa-map-marker-alt"></i>
+        {{ sidebar.location }}
+      </li>   
+      {% endif %}
+    </ul> 
   </div><!--//profile-container-->
 
   {% include contact.html %}
