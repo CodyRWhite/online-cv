@@ -12,9 +12,9 @@
   <meta name="description" content="{{ site.description }}">
   <!-- Icons -->
   {% if site.favicon %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ base }}/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ base }}/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ base }}/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
   <link rel="manifest" href="{{ base }}/site.webmanifest">  
   {% endif%}
   {% if site.fluid_icon %}
@@ -24,7 +24,7 @@
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{{ site.title }}">
   <meta itemprop="description" content="{{ site.description }}">
-  <meta itemprop="image" content="{{ base }}{{ site.thumbnail_image }}">
+  <meta itemprop="image" content="{{ site.baseurl }}{{ site.thumbnail_image }}">
   <meta name="google-site-verification" content="{{ site_verification }}" />
   {% endif%}
   {% if site.twitter_meta %}
@@ -33,7 +33,7 @@
   <meta name="twitter:url" content="{{ site.url }}" />
   <meta name="twitter:title" content="{{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
-  <meta name="twitter:image" content="{{ base }}{{ site.thumbnail_image }}" />
+  <meta name="twitter:image" content="{{ site.baseurl }}{{ site.thumbnail_image }}" />
   {% endif%}  
   {% if site.facebook_meta %}
   <!-- Open Graph / Facebook -->
@@ -41,7 +41,7 @@
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="{{ site.thumbnail_image }}" />
+  <meta property="og:image" content="{{ site.baseurl }}{{ site.thumbnail_image }}" />
   {% endif%}  
   {% if site.fb_app_id %}
   <!-- Facebook App ID -->
