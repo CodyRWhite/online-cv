@@ -44,7 +44,7 @@ compress_html: # - http://jch.penibelst.de/
     envs: development
   blanklines: true
   profile: true
-  startings: [html, head, body]
+  #startings: [html, head, body]
 
 # Development Settings
 port: 4000
